@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_perro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/casa_interior"
+    android:orientation="vertical"
+    tools:context=".animales.DogActivity">
+
+    <ImageButton
+        style="@style/imageButtonPrimary"
+        android:id="@+id/ibt_perro_dess"
+        android:scaleType="centerCrop"
+        android:background="@drawable/poker" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/ibt_frog"
+                    android:background="@drawable/ranita"
+                    style="@style/imageButtonOptions"
+                    android:layout_width="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/ibt_dog"
+                    style="@style/imageButtonOptions"
+                    android:background="@drawable/dog"
+                    android:layout_width="match_parent" />
+
+                <ImageButton
+                    style="@style/imageButtonOptions"
+                    android:id="@+id/ibt_lion"
+                    android:background="@drawable/leon"
+                    android:layout_width="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+</LinearLayout>

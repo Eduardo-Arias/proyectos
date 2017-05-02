@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monte"
+    android:weightSum="1">
+
+
+    <ImageButton
+        style="@style/iv_colores"
+        android:background="@drawable/blue"
+        android:id="@+id/ibt_blue"/>
+
+    <TextView
+        style="@style/tx_colores"
+        android:text="BLUE"
+        android:id="@+id/tv_name"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/siguiente"
+        android:id="@+id/ibt_siguiente"/>
+
+    <ImageButton
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/anterior"
+        android:id="@+id/ibt_anterior"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

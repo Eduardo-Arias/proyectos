@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_login"
+    tools:context="com.jjsoluciones.segundosprint.login.Login">
+
+    <ImageView
+        style="@style/imagelogin"
+        android:id="@+id/iv_login"
+        android:src="@drawable/login"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_login"/>
+    <EditText
+        style="@style/ed_registros"
+        android:id="@+id/ed_username_login"
+        android:hint="@string/nombre_usuario"
+        android:inputType="text"
+        android:background="@drawable/shape_edt_registro"
+        android:drawableRight="@drawable/user"/>
+    <EditText
+        style="@style/ed_registros"
+        android:id="@+id/ed_password_login"
+        android:hint="@string/contrase"
+        android:inputType="textPassword"
+        android:background="@drawable/shape_edt_registro"
+        android:drawableRight="@drawable/lock"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            style="@style/bt_registro"
+            android:text="@string/iniciar"
+            android:background="@drawable/shape_green"
+            android:id="@+id/bt_login"/>
+
+        <Button
+            style="@style/bt_registro"
+            android:text="@string/registrarce"
+            android:background="@drawable/shape_blue"
+            android:id="@+id/bt_sing_up_login"/>
+
+    </LinearLayout>
+
+</LinearLayout>

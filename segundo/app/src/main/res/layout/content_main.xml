@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:id="@+id/content_main"
+    android:background="@drawable/jome"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/abecedario"
+                android:id="@+id/ibt_abecedario"
+                />
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/animales"
+                android:id="@+id/ibt_animales"
+                android:layout_toRightOf="@id/ibt_abecedario"
+                />
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/colores"
+                android:id="@+id/ibt_colores"
+                android:layout_below="@id/ibt_abecedario"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/profesiones"
+                android:id="@+id/ibt_profesiones"
+                android:layout_below="@id/ibt_animales"
+                android:layout_toRightOf="@id/ibt_colores"
+                />
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/vocales"
+                android:id="@+id/ibt_vocales"
+                android:layout_below="@id/ibt_colores"
+                />
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/objetos"
+                android:id="@+id/ibt_objetos"
+                android:layout_below="@id/ibt_profesiones"
+                android:layout_toRightOf="@id/ibt_vocales"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/fondo_estaciones"
+                android:id="@+id/ibt_estaciones"
+                android:layout_below="@id/ibt_vocales"
+                />
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/meses"
+                android:id="@+id/ibt_meses"
+                android:layout_below="@id/ibt_vocales"
+                android:layout_toRightOf="@id/ibt_estaciones"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/uno_dos_tres"
+                android:id="@+id/ibt_numeros"
+                android:layout_below="@id/ibt_estaciones"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/tres_dos_uno"
+                android:id="@+id/ibt_num_mov"
+                android:layout_below="@id/ibt_meses"
+                android:layout_toRightOf="@id/ibt_numeros"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/fondo_frutas"
+                android:id="@+id/ibt_fruta"
+                android:layout_below="@id/ibt_numeros"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/familia"
+                android:id="@+id/ibt_familia"
+                android:layout_below="@id/ibt_num_mov"
+                android:layout_toRightOf="@id/ibt_fruta"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:background="@drawable/figuras"
+                android:id="@+id/ibt_figuras"
+                android:layout_below="@id/ibt_fruta"/>
+
+            <ImageButton
+                style="@style/iv_image_menu"
+                android:src="@drawable/pixar"
+                android:id="@+id/ibt_emociones"
+                android:layout_below="@id/ibt_familia"
+                android:layout_toRightOf="@id/ibt_figuras"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_registro"
+    tools:context="com.jjsoluciones.segundosprint.login.SingUp">
+
+    <EditText
+        style="@style/ed_registros"
+        android:background="@drawable/shape_edt_registro"
+        android:hint="@string/nombre_usuario"
+        android:id="@+id/ed_username"
+        android:drawableRight="@drawable/add_user"/>
+
+    <EditText
+        style="@style/ed_registros"
+        android:background="@drawable/shape_edt_registro"
+        android:hint="@string/nombre"
+        android:id="@+id/ed_name"
+        android:drawableRight="@drawable/pencil"/>
+    <EditText
+        style="@style/ed_registros"
+        android:background="@drawable/shape_edt_registro"
+        android:hint="@string/contrase"
+        android:id="@+id/ed_password"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/lock"/>
+    <EditText
+        style="@style/ed_registros"
+        android:background="@drawable/shape_edt_registro"
+        android:hint="@string/repetir_contrase"
+        android:id="@+id/ed_password_repeat"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/lock"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/bt_registro"
+            android:text="@string/registrarce"
+            android:id="@+id/bt_sign_up"
+            android:background="@drawable/shape_blue"
+            android:layout_gravity="center"/>
+        <Button
+            style="@style/bt_registro"
+            android:text="Cancelar"
+            android:id="@+id/bt_cancelar"
+            android:background="@drawable/shape_red"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>

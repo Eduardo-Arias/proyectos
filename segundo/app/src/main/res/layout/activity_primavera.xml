@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/fondo_primavera"
+    tools:context="com.jjsoluciones.segundosprint.anio.PrimaveraActivity">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_acampar"
+                    android:background="@drawable/acampar"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_cometa1"
+                    android:background="@drawable/cometa"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_caminata"
+                    android:background="@drawable/caminata"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_esquiar2"
+                    android:background="@drawable/esquiar"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_nadar"
+                    android:background="@drawable/nadar"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_contenedor_primavera"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_acampar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/imageScroll"
+                        android:id="@+id/iv_mochila"
+                        android:background="@drawable/mochila"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_cometa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="30dp">
+
+                    <ImageView
+                        android:id="@+id/iv_viento_1"
+                        style="@style/imageScroll"
+                        android:background="@drawable/viento"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_caminar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="30dp">
+
+                    <ImageView
+                        android:id="@+id/iv_sendero"
+                        android:background="@drawable/senderos"
+                        style="@style/imageScroll"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

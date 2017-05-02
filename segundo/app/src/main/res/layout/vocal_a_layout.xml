@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_manzana"
+    android:weightSum="1"
+    tools:context=".AActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/apple"
+        android:src="@drawable/apple"/>
+
+    <TextView
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/apple"
+        android:layout_below="@+id/apple"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.30"
+        android:id="@+id/app"
+        android:textSize="80dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

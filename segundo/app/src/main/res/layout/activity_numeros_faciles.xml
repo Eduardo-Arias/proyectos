@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pizarron"
+    tools:context="com.jjsoluciones.segundosprint.moviles.NumerosFaciles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_uno"
+                    android:background="@drawable/uno"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_dos">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_dos"
+                        android:background="@drawable/poker"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_tres">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_tres"
+                        android:background="@drawable/poker"/>
+                </LinearLayout>
+
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_cuatro"
+                    android:background="@drawable/cuatro"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_cinco_prim"
+                    android:background="@drawable/cinco"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_seis">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_seis"
+                        android:background="@drawable/poker"/>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_siete"
+                    android:background="@drawable/siete"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_ocho">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_ocho"
+                        android:background="@drawable/poker"/>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_nueve"
+                    android:background="@drawable/nueve"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_seis_corr"
+                    android:background="@drawable/seis"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_cuatro_corr"
+                    android:background="@drawable/cuatro"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_dos_corr"
+                    android:background="@drawable/dos"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_ocho_corr"
+                    android:background="@drawable/ocho"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_siete_corr"
+                    android:background="@drawable/siete"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_tres_corr"
+                    android:background="@drawable/tres"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

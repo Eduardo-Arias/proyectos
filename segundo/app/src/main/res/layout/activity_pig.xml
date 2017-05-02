@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/granja"
+    tools:context="com.jjenterprice.inglesfacil.animales.PigActivity">
+    <ImageButton
+        style="@style/imageButtonPrimary"
+        android:id="@+id/ibt_pig_dess"
+        android:background="@drawable/poker"
+        android:scaleType="centerInside"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ibt_pig_dess"
+        android:layout_marginBottom="31dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20pt">
+
+            <ImageButton
+                style="@style/imageButtonOptions"
+                android:id="@+id/ibt_pig"
+                android:background="@drawable/puerquito"
+                android:layout_width="match_parent" />
+
+            <ImageButton
+                android:id="@+id/ibt_horse"
+                android:background="@drawable/caballo"
+                style="@style/imageButtonOptions"
+                android:layout_width="match_parent" />
+
+            <ImageButton
+                android:id="@+id/ibt_frog"
+                android:background="@drawable/ranita"
+                style="@style/imageButtonOptions"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

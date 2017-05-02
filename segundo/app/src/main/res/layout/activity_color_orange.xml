@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/monte">
+
+
+    <ImageButton
+        style="@style/iv_colores"
+        android:background="@drawable/zanahoria"
+        android:id="@+id/ibt_orange"/>
+
+    <TextView
+        style="@style/tx_colores"
+        android:text="ORANGE"
+        android:id="@+id/tv_name"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageButton
+            android:layout_width="66dp"
+            android:layout_height="58dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/siguiente"
+            android:id="@+id/ibt_siguiente"
+            android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".emociones.AlegriaActivity"
+    android:background="@drawable/unoi">
+
+    <TextView
+        style="@style/tx_profeciones"
+        android:text="Happy"
+        android:background="@drawable/shape_green_title"/>
+
+    <ImageButton
+        style="@style/iv_profeciones"
+        android:background="@drawable/fe"
+        android:id="@+id/ibt_alegria"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <Button
+            style="@style/bt_continuar_regresar"
+            android:id="@+id/bt_continuar_alegria"
+            android:text="@string/continuar"
+            android:background="@drawable/shape_blue"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            style="@style/bt_continuar_regresar"
+            android:background="@drawable/shape_red"
+            android:layout_alignParentLeft="true"
+            android:text="@string/regresar"
+            android:id="@+id/bt_regresar_alegria"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

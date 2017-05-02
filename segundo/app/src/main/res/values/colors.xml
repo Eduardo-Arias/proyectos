@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorFont">#000000</color>
+
+    <color name="black">#000000</color>
+    <color name="white_solid">#FFFFFF</color>
+    <color name="white_tras">#b0ffffff</color>
+    <color name="blue">#5a8fe6</color>
+    <color name="blue_tras">#bf5a8fe6</color>
+    <color name="green_solid">#31d631</color>
+    <color name="green_trans">#a03df43d</color>
+    <color name="red_solid">#fa1e1e</color>
+    <color name="red_tras">#c1fa1e1e</color>
+    <color name="sky_blue">#D21CF472</color>
+    <color name="yellow">#DAF4DB1C</color>
+
+    <color name="aqua">#00FFFF</color>
+    <color name="cafe">#DBF1E08E</color>
+
+    <color name="colorBlue">#2929ff</color>
+    <color name="color2">#355A67</color>
+    <color name="color3">#ff9100</color>
+    <color name="color4">#2C807C</color>
+    <color name="color5">#EAAC71</color>
+    <color name="color6">#71CFEA</color>
+    <color name="color12">#CDD2B8</color>
+    <color name="color7">#962018</color>
+    <color name="color8">#B24235</color>
+    <color name="color9">#F86E65</color>
+    <color name="col">#BAD13C</color>
+    <color name="c">#3C421F</color>
+    <color name="ch">#364261</color>
+    <color name="cn">#2F295A</color>
+    <color name="cn6">#5E597D</color>
+    <color name="cn7">#C857CB</color>
+</resources>

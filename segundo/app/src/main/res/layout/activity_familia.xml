@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_arbol"
+    tools:context=".familia.FamiliaActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_papa"
+                    android:background="@drawable/papa"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_mama"
+                    android:background="@drawable/mama"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_abuelo"
+                    android:background="@drawable/abuelo"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_abuela"
+                    android:background="@drawable/abuela"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_hijo"
+                    android:background="@drawable/hijo"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_hija"
+                    android:background="@drawable/hija"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_arbol_genealogico"
+                    android:columnCount="6"
+                    android:columnOrderPreserved="true"
+                    android:layout_margin="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="40dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_weight="20">
+
+                    <LinearLayout
+                        style="@style/arbol_genealogico"
+                        android:layout_column="0"
+                        android:layout_row="1"
+                        android:id="@+id/ll_abuelo">
+
+                        <ImageView
+                            style="@style/imageScroll"
+                            android:background="@drawable/baston"
+                            android:id="@+id/iv_baston"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/arbol_genealogico"
+                        android:layout_column="1"
+                        android:layout_row="1"
+                        android:id="@+id/ll_abuela">
+
+                        <ImageView
+                            style="@style/imageScroll"
+                            android:background="@drawable/tejer"
+                            android:id="@+id/iv_tejer"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/arbol_genealogico"
+                        android:layout_column="0"
+                        android:layout_row="2"
+                        android:id="@+id/ll_papa"
+                        >
+
+                        <ImageView
+                            style="@style/imageScroll"
+                            android:background="@drawable/corbata"
+                            android:id="@+id/iv_corbata"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/arbol_genealogico"
+                        android:layout_column="1"
+                        android:layout_row="2"
+                        android:id="@+id/ll_mama"
+                        >
+
+                        <ImageView
+                            style="@style/imageScroll"
+                            android:background="@drawable/mandil"
+                            android:id="@+id/iv_mandil"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/arbol_genealogico"
+                        android:layout_column="0"
+                        android:layout_row="3"
+                        android:id="@+id/ll_hijo">
+
+                        <ImageView
+                            style="@style/imageScroll"
+                            android:background="@drawable/pelota"
+                            android:id="@+id/iv_pelota_f"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        style="@style/arbol_genealogico"
+                        android:layout_column="1"
+                        android:layout_row="3"
+                        android:id="@+id/ll_hija">
+
+                        <ImageView
+                            style="@style/imageScroll"
+                            android:background="@drawable/hello_kit"
+                            android:id="@+id/iv_kiti"/>
+
+                    </LinearLayout>
+
+                </GridLayout>
+            </ScrollView>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>
+

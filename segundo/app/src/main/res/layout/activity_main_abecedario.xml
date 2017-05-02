@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pizarron"
+    tools:context=".abc.MainAbecedario">
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView2">
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="15dp">
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_a"
+                android:id="@+id/ibt_a"/>
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_b"
+                android:id="@+id/ibt_b"
+                android:layout_toRightOf="@+id/ibt_a"/>
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_c"
+                android:id="@+id/ibt_c"
+                android:layout_below="@id/ibt_a"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_d"
+                android:id="@+id/ibt_d"
+                android:layout_below="@id/ibt_b"
+                android:layout_toRightOf="@id/ibt_c"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_e"
+                android:id="@+id/ibt_e"
+                android:layout_below="@id/ibt_c"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_f"
+                android:id="@+id/ibt_f"
+                android:layout_below="@id/ibt_d"
+                android:layout_toRightOf="@id/ibt_e"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_g"
+                android:id="@+id/ibt_g"
+                android:layout_below="@id/ibt_e"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_h"
+                android:id="@+id/ibt_h"
+                android:layout_below="@id/ibt_f"
+                android:layout_toRightOf="@id/ibt_g"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_i"
+                android:id="@+id/ibt_i"
+                android:layout_below="@id/ibt_g"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_j"
+                android:id="@+id/ibt_j"
+                android:layout_below="@id/ibt_h"
+                android:layout_toRightOf="@id/ibt_i"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_k"
+                android:id="@+id/ibt_k"
+                android:layout_below="@id/ibt_i"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_l"
+                android:id="@+id/ibt_l"
+                android:layout_below="@id/ibt_j"
+                android:layout_toRightOf="@+id/ibt_k"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_m"
+                android:id="@+id/ibt_m"
+                android:layout_below="@id/ibt_k"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_n"
+                android:id="@+id/ibt_n"
+                android:layout_below="@id/ibt_l"
+                android:layout_toRightOf="@id/ibt_m"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_o"
+                android:id="@+id/ibt_o"
+                android:layout_below="@id/ibt_m"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_p"
+                android:id="@+id/ibt_p"
+                android:layout_below="@id/ibt_n"
+                android:layout_toRightOf="@id/ibt_m"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_q"
+                android:id="@+id/ibt_q"
+                android:layout_below="@id/ibt_o"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_r"
+                android:id="@+id/ibt_r"
+                android:layout_below="@id/ibt_p"
+                android:layout_toRightOf="@id/ibt_q"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_s"
+                android:id="@+id/ibt_s"
+                android:layout_below="@id/ibt_q"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_t"
+                android:id="@+id/ibt_t"
+                android:layout_below="@id/ibt_r"
+                android:layout_toRightOf="@id/ibt_s"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_u"
+                android:id="@+id/ibt_u"
+                android:layout_below="@id/ibt_s"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_v"
+                android:id="@+id/ibt_v"
+                android:layout_below="@id/ibt_t"
+                android:layout_toRightOf="@id/ibt_u"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_w"
+                android:id="@+id/ibt_w"
+                android:layout_below="@id/ibt_u"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_x"
+                android:id="@+id/ibt_x"
+                android:layout_below="@id/ibt_v"
+                android:layout_toRightOf="@id/ibt_w"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_y"
+                android:id="@+id/ibt_y"
+                android:layout_below="@id/ibt_w"
+                />
+
+            <ImageButton
+                style="@style/iv_abecedario"
+                android:background="@drawable/indice_z"
+                android:id="@+id/ibt_z"
+                android:layout_below="@id/ibt_x"
+                android:layout_toRightOf="@id/ibt_y"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

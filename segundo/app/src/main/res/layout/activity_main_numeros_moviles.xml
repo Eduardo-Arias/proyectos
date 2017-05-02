@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/piz"
+    tools:context="com.jjsoluciones.segundosprint.moviles.MainNumerosMoviles">
+
+    <Button
+        style="@style/bt_inicio"
+        android:text="@string/f_cil"
+        android:id="@+id/bt_facil"
+        android:background="@color/green_solid"
+        android:layout_gravity="center|bottom"/>
+
+    <Button
+        style="@style/bt_inicio"
+        android:id="@+id/bt_medio"
+        android:text="@string/medio"
+        android:background="@color/blue"
+        android:layout_gravity="center|bottom"/>
+
+    <Button
+        style="@style/bt_inicio"
+        android:id="@+id/bt_dificil"
+        android:text="@string/deficil"
+        android:background="@color/red_solid"
+        android:layout_gravity="center|bottom"/>
+
+</LinearLayout>

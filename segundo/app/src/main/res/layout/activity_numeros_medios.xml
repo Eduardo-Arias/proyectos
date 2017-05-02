@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pizarron"
+    tools:context="com.jjsoluciones.segundosprint.moviles.NumerosFaciles">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_dos_medio">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_dos_medio"
+                        android:background="@drawable/poker"/>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_cuatro_medio"
+                    android:background="@drawable/cuatro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_seis_medio">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_seis_medio"
+                        android:background="@drawable/poker"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_ocho_medio">
+
+                    <ImageView
+                        style="@style/iv_numeros_moviles"
+                        android:id="@+id/iv_ocho_medio"
+                        android:background="@drawable/poker"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_dies_medio"
+                    android:background="@drawable/diez"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_cuatro_medio_corr"
+                    android:background="@drawable/cuatro"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_tres_medio_corr"
+                    android:background="@drawable/tres"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_dos_medio_corr"
+                    android:background="@drawable/dos"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_ocho_medio_corr"
+                    android:background="@drawable/ocho"/>
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_siete_medio_corr"
+                    android:background="@drawable/siete"/>
+
+
+                <ImageView
+                    style="@style/iv_numeros_moviles"
+                    android:id="@+id/iv_seis_medio_corr"
+                    android:background="@drawable/seis"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

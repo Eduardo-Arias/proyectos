@@ -1,0 +1,67 @@
+<resources>
+    <string name="f_cil">Del 1 al 10</string>
+    <string name="medio">Pares</string>
+    <string name="deficil">Primos</string>
+    <string name="repetir_contrase">Repetir Contraseña</string>
+    <string name="contrase">Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="nombre_usuario">Nombre de Usuario</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="registrarce">Registrarse</string>
+
+
+    <string name="adivinar_soy">¿Puedes Adivinar quien soy?</string>
+    <string name="continuar">Continuar</string>
+    <string name="como_se_dice">¿Cómo se dice?</string>
+    <string name="has_acabado">Has acabado</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="elephant">Elephant</string>
+    <string name="apple">Apple</string>
+    <string name="inchworm">Inchworm</string>
+    <string name="unicorn">Unicorn</string>
+    <string name="octopus">Octopus</string>
+    <string name="ice_cream">Ice Cream</string>
+    <string name="vowels">Vowels</string>
+
+    <string name="app_name">EnglishEasy</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="tools">Tools</string>
+    <string name="comunicate">Comunicate</string>
+    <string name="preferences">Preferences</string>
+    <string name="android_studio_android_com">Android.studio@android.com</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="user_data">User data</string>
+    <string name="sound">Sound</string>
+    <string name="sumari_sound">Active or inactive the sound</string>
+    <string name="username">Username</string>
+    <string name="identifies_user">Identifies user in the application</string>
+    <string name="type_user">Type your username</string>
+    <string name="countris_data">Countries Data</string>
+    <string name="select_country">Select your Country</string>
+    <string name="user_country">User Country</string>
+    <string name="country">Country</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="EnglishEasy">EnglishEasy</string>
+
+    <string-array name="countries">
+        <item>Mexico</item>
+        <item>United States</item>
+        <item>Venezuela</item>
+        <item>Colombia</item>
+        <item>Cuba</item>
+    </string-array>
+    <string-array name="country_codes">
+        <item>MEX</item>
+        <item>USA</item>
+        <item>VEN</item>
+        <item>COL</item>
+        <item>CUB</item>
+    </string-array>
+
+    <string name="italian_coffee">Italian coffee</string>
+    <string name="_34_years_old">34 years old</string>
+    <string name="regresar">regresar</string>
+    <string name="dentist">Dentist</string>
+</resources>

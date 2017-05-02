@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profesiones.DentistaActivity"
+    android:background="@drawable/dent">
+
+
+
+    <TextView
+        style="@style/tx_profeciones"
+        android:text="@string/dentist"
+        android:background="@drawable/shape_green_title"/>
+
+    <ImageButton
+        style="@style/iv_profeciones"
+        android:background="@drawable/dt"
+        android:id="@+id/ibt_dentista"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            style="@style/bt_continuar_regresar"
+            android:layout_alignParentRight="true"
+            android:text="@string/continuar"
+            android:background="@drawable/shape_blue"
+            android:textColor="@color/white_solid"
+            android:id="@+id/bt_continuar_dentista"/>
+
+        <Button
+            android:layout_alignParentLeft="true"
+            style="@style/bt_continuar_regresar"
+            android:text="@string/regresar"
+            android:textColor="@color/white_solid"
+            android:background="@drawable/shape_red"
+            android:id="@+id/bt_regresar"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

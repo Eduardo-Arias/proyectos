@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jjsoluciones.segundosprint">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity android:name=".login.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <!-- Animals -->
+        <activity android:name=".animales.MainAnimalsActivity" />
+        <activity android:name=".animales.DogActivity" />
+        <activity android:name=".animales.DogCorrectActivity" />
+        <activity android:name=".animales.CatActivity" />
+        <activity android:name=".animales.CatCorrActivity" />
+        <activity android:name=".animales.LionActivity" />
+        <activity android:name=".animales.LionCorrActivity" />
+        <activity android:name=".animales.ElephantActivity" />
+        <activity android:name=".animales.ElephantCorrActivity" />
+        <activity android:name=".animales.PigActivity" />
+        <activity android:name=".animales.PigCorrActivity" />
+        <activity android:name=".animales.FinishsAnimalsActivity" />
+
+        <activity android:name=".familia.MainFamila" />
+        <activity android:name=".anio.MainEstaciones" />
+        <activity android:name=".anio.PrimaveraActivity" />
+        <activity android:name=".anio.OtonioActivity" />
+        <activity android:name=".anio.InviernoActivity" />
+        <activity android:name=".anio.VeranoActivity" />
+        <activity android:name=".familia.FamiliaActivity" />
+
+        <activity android:name=".moviles.MainNumerosMoviles" />
+        <activity android:name=".moviles.NumerosFaciles" />
+        <activity android:name=".moviles.NumerosMedios" />
+        <activity android:name=".moviles.NumerosDificil" />
+        <activity android:name=".login.SingUp" />
+
+        <activity android:name=".colores.OrangeActivity"/>
+        <activity android:name=".colores.BlackActivity"/>
+        <activity android:name=".colores.BlueActivity"/>
+        <activity android:name=".colores.BrownActivity"/>
+        <activity android:name=".colores.GreenActivity"/>
+        <activity android:name=".colores.GreyActivity"/>
+        <activity android:name=".colores.PinkActivity"/>
+        <activity android:name=".colores.RedActivity"/>
+        <activity android:name=".colores.WhiteActivity"/>
+        <activity android:name=".colores.YellowActivity"/>
+
+        <activity android:name=".abc.LetterA"/>
+        <activity android:name=".abc.LetterB"/>
+        <activity android:name=".abc.LetterC"/>
+        <activity android:name=".abc.LetterD"/>
+        <activity android:name=".abc.LetterE"/>
+        <activity android:name=".abc.LetterF"/>
+        <activity android:name=".abc.LetterG"/>
+        <activity android:name=".abc.LetterH" />
+        <activity android:name=".abc.LetterI"/>
+        <activity android:name=".abc.LetterJ"/>
+        <activity android:name=".abc.LetterK"/>
+        <activity android:name=".abc.LetterL"/>
+        <activity android:name=".abc.LetterM"/>
+        <activity android:name=".abc.LetterN"/>
+        <activity android:name=".abc.LetterO"/>
+        <activity android:name=".abc.LetterP"/>
+        <activity android:name=".abc.LetterQ"/>
+        <activity android:name=".abc.LetterR"/>
+        <activity android:name=".abc.LetterS"/>
+        <activity android:name=".abc.LetterT"/>
+        <activity android:name=".abc.LetterU"/>
+        <activity android:name=".abc.LetterV"/>
+        <activity android:name=".abc.LetterW"/>
+        <activity android:name=".abc.LetterX"/>
+        <activity android:name=".abc.LetterY"/>
+        <activity android:name=".abc.LetterZ"/>
+        <activity android:name=".abc.MainAbecedario"/>
+
+        <activity android:name=".meses.ActivityMonths"/>
+
+        <activity android:name=".vowels.AActivity"/>
+        <activity android:name=".vowels.EActivity"/>
+        <activity android:name=".vowels.IActivity"/>
+        <activity android:name=".vowels.OActivity"/>
+        <activity android:name=".vowels.UActivity"/>
+        <activity android:name=".vowels.MainVocales"/>
+
+        <activity android:name=".fruits.Verduras"/>
+        <activity android:name=".fruits.FrutaActivity"/>
+        <activity android:name=".fruits.Main"/>
+
+        <activity android:name=".numeros.Numeros"/>
+
+        <activity android:name=".emociones.MainActivityEmociones"/>
+        <activity android:name=".emociones.AlegriaActivity"/>
+        <activity android:name=".emociones.MiedoActivity"/>
+        <activity android:name=".emociones.TristezaActivity"/>
+        <activity android:name=".emociones.EnojoActivity"/>
+
+        <activity android:name=".profesiones.EnfermeraActivity"/>
+        <activity android:name=".profesiones.AbogadoActivity"/>
+        <activity android:name=".profesiones.BomberoActivity"/>
+        <activity android:name=".profesiones.DoctorActivity"/>
+        <activity android:name=".profesiones.TaxistaActivity"/>
+        <activity android:name=".profesiones.VeterinarioActivity"/>
+        <activity android:name=".profesiones.DentistaActivity"/>
+        <activity android:name=".profesiones.MainActivityProfeciones"/>
+
+        <activity android:name=".objetos.Objeto"/>
+
+        <activity android:name=".figuras.Circle"/>
+        <activity android:name=".figuras.Diamond"/>
+        <activity android:name=".figuras.Rectangle"/>
+        <activity android:name=".figuras.Square"/>
+        <activity android:name=".figuras.Triangle"/>
+        <activity android:name=".figuras.MainActivityFiguras"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo_verano"
+    tools:context=".anio.VeranoActivity">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_castillo"
+                    android:background="@drawable/juega_arena"
+                    />
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_nado"
+                    android:background="@drawable/nadar"
+                    />
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_esquiar1"
+                    android:background="@drawable/esquiar"
+                    />
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_bucear"
+                    android:background="@drawable/bucear"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_acampar1"
+                    android:background="@drawable/acampar1"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_contenedor"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_castillo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_pelota"
+                        style="@style/imageScroll"
+                        android:background="@drawable/pelota"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_nadar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="30dp">
+
+                    <ImageView
+                        style="@style/imageScroll"
+                        android:id="@+id/iv_flotis"
+                        android:background="@drawable/flotis"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_bucear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="30dp">
+
+                    <ImageView
+                        style="@style/imageScroll"
+                        android:id="@+id/iv_lentes"
+                        android:background="@drawable/buscear_pis"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

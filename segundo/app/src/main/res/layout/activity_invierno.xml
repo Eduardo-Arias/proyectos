@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/fondo_invierno"
+    tools:context="com.jjsoluciones.segundosprint.anio.InviernoActivity">
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/imageScroll"
+                    android:background="@drawable/esquiar"
+                    android:id="@+id/iv_esquiar"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:background="@drawable/patinaje_hielo"
+                    android:id="@+id/iv_patinar3"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:background="@drawable/juega_nieve"
+                    android:id="@+id/iv_jugar_nieve"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_cometa4"
+                    android:background="@drawable/cometa"/>
+                <ImageView
+                    style="@style/imageScroll"
+                    android:id="@+id/iv_acampar2"
+                    android:background="@drawable/acampar1"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_contenedor"
+        android:orientation="horizontal">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_esquiar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/imageScroll"
+                        android:id="@+id/iv_esq"
+                        android:background="@drawable/esquizz"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_patinar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="30dp">
+
+                    <ImageView
+                        style="@style/imageScroll"
+                        android:id="@+id/iv_patin"
+                        android:background="@drawable/patines_hilo"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_jugar_nieve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="30dp">
+
+                    <ImageView
+                        style="@style/imageScroll"
+                        android:id="@+id/iv_nieve"
+                        android:background="@drawable/munieco_nieve_ay"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

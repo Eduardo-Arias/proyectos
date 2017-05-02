@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="27dp"
+        android:id="@+id/ibt_inicio"
+        android:background="@drawable/inicio"
+        />
+
+
+    <ImageButton
+        android:layout_width="171dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/letter_w"
+        android:id="@+id/ibt_letter_w"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:layout_width="171dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/world"
+        android:id="@+id/ibt_muestra"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WORLD"
+        android:textSize="40dp"
+        android:textColor="@color/colorFont"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:id="@+id/tv_name"/>
+
+
+</LinearLayout>

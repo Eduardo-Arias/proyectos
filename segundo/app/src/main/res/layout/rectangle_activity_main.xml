@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/figura"
+    android:weightSum="1">
+
+
+    <ImageButton
+        style="@style/iv_profeciones"
+        android:background="@drawable/rectangle"
+        android:id="@+id/ibt_rectangle"/>
+
+    <TextView
+        style="@style/tx_profeciones"
+        android:text="Rectangle"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/tv_name"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:background="@android:drawable/ic_media_next"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/ibt_siguiente"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="17dp" />
+
+        <ImageButton
+            android:background="@android:drawable/ic_media_previous"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/ibt_anterior"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="32dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
